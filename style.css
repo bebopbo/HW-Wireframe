@@ -1,0 +1,51 @@
+/* Floats CSS */
+
+body {
+    width: 960px; font-size: 16px; color: #777777; background: #777777;
+}
+
+
+.top,.top2,.right,.left,.left2,.bottom {
+    background: #777777; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.top {
+    width: 100%; height: 50px; margin: 10px; margin-left:70px; text-align: center; padding: 20px;
+    background: #ebebeb; color: #777777;
+}
+
+.top2 {
+    width: 100%; height: 50px; margin: 10px; margin-left:70px; text-align: center; padding: 20px;
+    background: #ebebeb; color: #777777 
+}
+
+.right {
+    width: 26%; height: 80px; margin-top: 20px; margin-left: 10px; margin-right: -110px; float: right; position: static;
+    background: #ebebeb; color: #777777; text-align: center; padding: 100px
+}
+
+.left {
+    width: 48%; height: 220px; margin-top: 20px; margin-left:69px; margin-right: 20px; float: left; position: static;
+    background: #ebebeb; color: #777777; text-align: center; padding: 30px;
+}
+
+.left2 {
+    width: 34%; height: 15%; margin-top: 10%; margin-left: 8%; margin-right: 10px; float: left; position: absolute;
+    background:  #777777; color:  #ebebeb; text-align: center; padding: 30px;
+}
+
+.header {
+    width: 93%; height: 10px; margin-top: 10px; position: relative;
+    background: #ebebeb; color: #777777; text-align: center; padding: 15px;
+}
+
+.paragraph {
+    width: 93%; height: 10px; margin-top: 10px; position: relative;
+    background: #ebebeb; color: #777777; text-align: center; padding: 15px;
+}
+
+.footer {
+    width: 100.2%; height: 50px; margin: 20px; margin-left:69px; padding: 20px; float: left;
+    background: #ebebeb; color: #777777; text-align: center;
+}
+
